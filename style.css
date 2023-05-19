@@ -154,28 +154,23 @@ body {
 
 }
 
-.box {
+.icon-section {
+    width: 100%;
+    height: 400px;
     background-color: blue;
-    background-repeat: no-repeat;
-    width: 100vw;
-    height: 75vh;
-    margin: 0;
-    padding: 0;
+    padding-top: 50px;
+    margin-bottom: 100px;
 }
 
-.why-choose-us {
+.icon-section h3 {
     text-align: center;
-}
-
-.why-choose-us h3 {
     font-size: 25px;
-    color: white;
-    padding-top: 70px;
     font-weight: 500;
-    margin-bottom: 0;
+    color: white;
+    margin: 0;
 }
 
-.why-choose-us hr {
+.icon-section hr {
     width: 60px;
     border: 4px solid orange;
     border-radius: 5px;
@@ -183,12 +178,34 @@ body {
 }
 
 .icon-box {
+    width: 1000px;
+    margin: auto;
     display: flex;
-    padding-left: 300px;
-    padding-right: 300px;
-    padding-top: 70px;
+    justify-content: space-around;
+    margin-top: 40px;
 }
 
-.icon-box img {
-    justify-content: center;
+.icon-box-image {
+    flex-basis: 23%;
+    margin: 10px 10px;
+    text-align: center;
+}
+
+.icon-box-image img {
+    margin: auto;
+    width: 70px;
+    height: 60px;
+    padding: 10px 0px;
+}
+
+.icon-box-image h3 {
+    font-size: 22px;
+    font-weight: 500;
+    color: white;
+}
+
+.icon-box-image p {
+    font-size: 12px;
+    font-weight: 200;
+    color: white;
 }
